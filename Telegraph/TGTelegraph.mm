@@ -181,7 +181,7 @@
 
 #import "FetchResources.h"
 
-#import "../../config.h"
+#import "../config.h"
 
 @interface TGTypingRecord : NSObject
 

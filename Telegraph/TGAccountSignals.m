@@ -17,7 +17,7 @@
 
 #import "TGPeerIdAdapter.h"
 
-#import "../../config.h"
+#import "../config.h"
 
 #import "TGLocalization.h"
 #import "TGTLSerialization.h"

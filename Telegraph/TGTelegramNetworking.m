@@ -59,7 +59,7 @@
 
 #import "TLRPCauth_sendCode.h"
 
-#import "../../config.h"
+#import "../config.h"
 
 #import "TGLocalization.h"
 

@@ -27405,7 +27405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#/usr/bin/perl -pe 's/(BUILD_NUMBER = )(\\d+)/$1.($2+1)/eg' -i buildnumber.xcconfig\nsh ${PROJECT_DIR}/tools/bump_build_number.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nsh ${PROJECT_DIR}/tools/sync_watch_version.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\" \"${PROJECT_DIR}/Watch/App/Info.plist\"\n";
+			shellScript = "#/usr/bin/perl -pe 's/(BUILD_NUMBER = )(\\d+)/$1.($2+1)/eg' -i buildnumber.xcconfig\n#sh ${PROJECT_DIR}/tools/bump_build_number.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n#sh ${PROJECT_DIR}/tools/sync_watch_version.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\" \"${PROJECT_DIR}/Watch/App/Info.plist\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

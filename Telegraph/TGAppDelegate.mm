@@ -129,7 +129,7 @@
 
 #import "TGRootController.h"
 
-#import "../../config.h"
+#import "../config.h"
 
 #import <CoreSpotlight/CoreSpotlight.h>
 
